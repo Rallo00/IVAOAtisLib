@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVAOAtisLib", "IVAOAtisLib\IVAOAtisLib.csproj", "{B5D96C10-F405-4944-A687-CBB31653D168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVAOAtisLibTest", "IVAOAtisLibTest\IVAOAtisLibTest.csproj", "{365E93CF-5830-4D8A-9081-73B3BAC33032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D96C10-F405-4944-A687-CBB31653D168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D96C10-F405-4944-A687-CBB31653D168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D96C10-F405-4944-A687-CBB31653D168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D96C10-F405-4944-A687-CBB31653D168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365E93CF-5830-4D8A-9081-73B3BAC33032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365E93CF-5830-4D8A-9081-73B3BAC33032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365E93CF-5830-4D8A-9081-73B3BAC33032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365E93CF-5830-4D8A-9081-73B3BAC33032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28038486-90BF-4D12-922D-AA401FBA94BB}
+	EndGlobalSection
+EndGlobal
