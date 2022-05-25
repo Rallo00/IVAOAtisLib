@@ -28,7 +28,7 @@ namespace IVAOAtisLibTest
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(">> Response");
             Console.ForegroundColor = ConsoleColor.White;
-            IVAOAtisLib.Atis response = IVAOAtisLib.GetAtis(ICAO);
+            IVAOAtisLib.Atis response = IVAOAtisLib.GetAtis(ICAO).Result;
             Console.WriteLine($"ICAO Code: {response.ICAOCode}");
             Console.WriteLine($"Callsign: {response.Callsign}");
             Console.WriteLine($"Revision: {response.Revision}");
