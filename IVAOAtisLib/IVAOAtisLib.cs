@@ -52,6 +52,9 @@ public static class IVAOAtisLib
         //Fixing Data
         foreach(Atis a in resultList)
         {
+            //Ignoring X and T callsigns (eXaminer and Trainer)
+            if (a.Callsign.Contains("_X_") || a.Callsign.Contains("_T_"))
+                continue;
             //Inserting ICAO Code for filter
             a.ICAOCode = a.Callsign.Split('_')[0];
             //Single string ATIS with newlines (to not use array)
